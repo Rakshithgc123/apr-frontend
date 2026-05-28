@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>css absolute</title>
+    <style>
+        .outer {
+            width: 500px;
+            height: 800px;
+            background-color: rgb(16, 1, 1);
+            position: relative; /* This is important for the inner div to be positioned relative to this outer div */
+            border: 2px solid black;
+        }
+        .inner {
+            width: 100px;
+            height: 100px;
+            background-color: blue;
+            position: absolute; /* This will position the inner div absolutely within the outer div */
+            top: 70px; /* Position from the top of the outer div */
+            left: 50px; /* Position from the left of the outer div */
+        }
+    </style>
+</head>
+ <body>
+    <div class="outer">hhi</div> # this is parresnt div
+    <div class="inner">Inner Text</div>
+</body>
+</html>

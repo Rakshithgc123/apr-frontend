@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+         .hello{
+            background-color: yellow;     
+            width: 150px;
+            height: 50px;
+         }
+         .hello:hover{
+            background-color: aqua;
+         }
+         p::first-line{
+            font-size:30px;
+            color: green;
+         }
+         .two::first-letter{
+            font-size: 50px;
+            font-style: italic;
+         }
+         .three::selection{
+            background-color: red;
+            color: white;
+            
+         }
+
+         li:nth-child(3n+2){                       /*       #odd,even, 3n+n */
+            background-color: saddlebrown;
+         }
+         /* this is  : ---> pseudo class , this is :: -----> psseudo element */
+    </style>
+</head>
+<body>
+    <button class="hello">hello</button> 
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque natus eaque minus ad eos doloremque fugit tempore vero possimus, nobis, ratione itaque porro voluptatem ipsam saepe accusantium hic magni recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus quaerat quas voluptatem eum molestias nam repudiandae dolorem fugiat? Vel aperiam quidem quaerat ab, quo facere iure nisi at magni?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita adipisci nam quod quisquam voluptatum quas iste maiores dolore, perferendis nisi neque modi aliquid accusantium? Eius illo nisi atque accusantium officiis?</p>
+    <p class="two">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque natus eaque minus ad eos doloremque fugit tempore vero possimus, nobis, ratione itaque porro voluptatem ipsam saepe accusantium hic magni recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus quaerat quas voluptatem eum molestias nam repudiandae dolorem fugiat? Vel aperiam quidem quaerat ab, quo facere iure nisi at magni?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita adipisci nam quod quisquam voluptatum quas iste maiores dolore, perferendis nisi neque modi aliquid accusantium? Eius illo nisi atque accusantium officiis?</p>
+    <p class="three">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque natus eaque minus ad eos doloremque fugit tempore vero possimus, nobis, ratione itaque porro voluptatem ipsam saepe accusantium hic magni recusandae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique possimus quaerat quas voluptatem eum molestias nam repudiandae dolorem fugiat? Vel aperiam quidem quaerat ab, quo facere iure nisi at magni?Lorem ipsum, dolor sit amet consectetur adipisicing elit. Expedita adipisci nam quod quisquam voluptatum quas iste maiores dolore, perferendis nisi neque modi aliquid accusantium? Eius illo nisi atque accusantium officiis?</p>
+
+    <ul>
+        <li>Kohli number 18</li>
+        <li>Dhoni number 7</li>
+        <li>Rohit number 45</li>
+        <li>sachin number 49</li>
+        <li>Ganguly number 99</li>
+        <li>Kohli number 18</li>
+        <li>Dhoni number 7</li>
+        <li>Rohit number 45</li>
+        <li>sachin number 49</li>
+        <li>Ganguly number 99</li>
+    </ul>
+
+
+</body>
+</html>
